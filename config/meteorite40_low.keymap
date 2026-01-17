@@ -10,14 +10,14 @@
 
 &mt {
     flavor = "tap-preferred"; // change hold to tap
-    tapping-term-ms = <200>;
-    quick-tap-ms = <150>; // change 200 to 150
+    tapping-term-ms = <180>;
+    quick-tap-ms = <160>; // change 200 to 150
 };
 
 &lt {
     flavor = "tap-preferred";
-    tapping-term-ms = <150>; // change 200 to 150
-    quick-tap-ms = <150>; // change 200 to 150
+    tapping-term-ms = <220>; // change 200 to 150
+    quick-tap-ms = <180>; // change 200 to 150
 };
 
 / {
@@ -93,7 +93,7 @@
 &mt LALT Q        &kp W             &kp E      &kp R             &kp T       &kp Y      &kp U          &kp I       &kp O  &kp P
 &lt 5 A           &kp S             &kp D      &kp F             &kp G       &kp H      &kp J          &kp K       &kp L  &kp ENTER
 &mt LSHFT Z  &kp X             &kp C      &kp V             &kp B       &mkp MB1   &mkp MB2       &kp N       &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
-&kp LGUI      &lt 1 LANG2  &lt 2 TAB  &lt 3 LANG1  &kp ESCAPE  &kp SPACE  &kp BSPC  &kp DEL
+&kp ESCAPE        &lt 1 LANGUAGE_2  &lt 2 TAB  &lt 3 LANGUAGE_1  &kp SPACE  &kp BACKSPACE  &kp DELETE  &kp LGUI
             >;
 
             sensor-bindings =
