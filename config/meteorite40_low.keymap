@@ -90,15 +90,15 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
-&mt LALT Q        &kp W             &kp E      &kp R             &kp T       &kp Y      &kp U          &kp I       &kp O  &kp P
-&lt 5 A           &kp S             &kp D      &kp F             &kp G       &kp H      &kp J          &kp K       &kp L  &kp ENTER
-&mt LSHFT Z  &kp X             &kp C      &kp V             &kp B       &mkp MB1   &mkp MB2       &kp N       &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
-&kp ESCAPE        &lt 1 LANGUAGE_2  &lt 2 TAB  &lt 3 LANGUAGE_1  &kp SPACE  &kp BACKSPACE  &kp DELETE  &kp LGUI
+&mt LALT Q   &kp W             &kp E      &kp R             &kp T      &kp Y          &kp U       &kp I     &kp O  &kp P
+&lt 5 A      &kp S             &kp D      &kp F             &kp G      &kp H          &kp J       &kp K     &kp L  &kp ENTER
+&mt LSHFT Z  &kp X             &kp C      &kp V             &kp B      &mkp MB1       &mkp MB2    &kp N     &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
+&kp ESCAPE   &lt 1 LANGUAGE_2  &lt 2 TAB  &lt 3 LANGUAGE_1  &kp SPACE  &kp BACKSPACE  &kp DELETE  &kp LGUI
             >;
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -109,15 +109,15 @@
         layer_1 {
             display-name = "SYMBOLS";
             bindings = <
-&kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR
-&none     &none   &none     &none     &none      &kp MINUS  &kp GRAVE      &kp SQT       &kp DQT               &kp SEMI
-&none     &none   &none     &none     &none      &mkp MB4   &mkp MB5       &kp EQUAL     &kp TILDE             &kp LBKT       &kp RBKT  &kp BSLH
-&trans    &trans  &trans    &trans    &trans     &trans     &kp DEL        &trans
+&kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR
+&none     &none   &none     &none     &none      &kp MINUS  &kp GRAVE  &kp SQT    &kp DQT    &kp SEMI
+&none     &none   &none     &none     &none      &mkp MB4   &mkp MB5   &kp EQUAL  &kp TILDE  &kp LBKT  &kp RBKT  &kp BSLH
+&trans    &trans  &trans    &trans    &trans     &trans     &kp DEL    &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -128,15 +128,15 @@
         layer_2 {
             display-name = "FUNCTIONS / ARROW";
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp PG_UP    &kp PG_DN  &kp UP  &kp C_VOL_DN  &kp C_VOL_UP
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp BSPC  &kp LEFT       &kp DOWN      &kp RIGHT     &kp LA(ENTER)
-&kp F11  &kp F12  &none   &none   &none    &mkp MB4       &mkp MB5       &kp DEL    &none         &none          &none  &kp PRSC
-&trans   &trans   &trans  &trans  &trans   &trans         &trans         &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp PG_UP  &kp PG_DN  &kp UP    &kp C_VOL_DN  &kp C_VOL_UP
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp BSPC   &kp LEFT   &kp DOWN  &kp RIGHT     &kp LA(ENTER)
+&kp F11  &kp F12  &none   &none   &none    &mkp MB4   &mkp MB5   &kp DEL   &none         &none          &none  &kp PRSC
+&trans   &trans   &trans  &trans  &trans   &trans     &trans     &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -146,14 +146,14 @@
             display-name = "NUMBERS";
             bindings = <
 &none   &none   &none   &none   &none   &kp PLUS   &kp N7  &kp N8  &kp N9  &kp SLASH
-&none   &none   &none   &none   &none   &kp MINUS  &kp N4  &kp N5  &kp N6  &none
+&none   &none   &none   &none   &none   &kp MINUS  &kp N4  &kp N5  &kp N6  &kp COLON
 &none   &none   &none   &none   &none   &none      &none   &kp N0  &kp N1  &kp N2     &kp N3  &kp DOT
 &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -162,15 +162,15 @@
         layer_4 {
             display-name = "SETTING";
             bindings = <
-&ccfg C_CPI_DN  &ccfg C_CPI_UP  &ccfg C_ROT_DN   &ccfg C_ROT_UP   &ccfg C_SCALE_TOG     &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&ccfg C_SDIV_DN &ccfg C_SDIV_UP &ccfg C_SCRH_TOG &ccfg C_SCRV_TOG    &none   &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none
-&ccfg C_SAVE    &ccfg C_RESET    &none   &none   &none   &none         &none           &bootloader   &none         &none         &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans        &trans          &trans
+&ccfg C_CPI_DN   &ccfg C_CPI_UP   &ccfg C_ROT_DN    &ccfg C_ROT_UP    &ccfg C_SCALE_TOG  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&ccfg C_SDIV_DN  &ccfg C_SDIV_UP  &ccfg C_SCRH_TOG  &ccfg C_SCRV_TOG  &none              &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none
+&ccfg C_SAVE     &ccfg C_RESET    &none             &none             &none              &none         &none           &bootloader   &none         &none         &none  &none
+&trans           &trans           &trans            &trans            &trans             &trans        &trans          &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -178,9 +178,9 @@
 
         layer_5 {
             bindings = <
-&trans     &trans            &trans         &trans     &trans     &trans     &kp LC(U)  &trans     &trans  &trans
-&trans     &kp LC(S)         &kp LC(SLASH)  &kp LC(F)  &kp LC(G)  &kp LC(H)  &trans     &kp LC(K)  &trans  &trans
-&kp LC(Z)  &kp LC(X)         &kp LC(C)      &kp LC(V)  &kp LC(B)  &trans     &trans     &trans     &trans  &trans  &trans  &trans
+&trans     &trans     &trans         &trans     &trans     &trans     &kp LC(U)  &trans     &trans  &trans
+&trans     &kp LC(S)  &kp LC(SLASH)  &kp LC(F)  &kp LC(G)  &kp LC(H)  &trans     &kp LC(K)  &trans  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(B)  &trans     &trans     &trans     &trans  &trans  &trans  &trans
 &kp LGUI   &kp LCTRL  &kp LALT       &trans     &trans     &trans     &trans     &trans
             >;
 
