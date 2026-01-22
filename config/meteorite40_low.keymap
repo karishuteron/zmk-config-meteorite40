@@ -98,7 +98,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -117,7 +117,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -130,13 +130,13 @@
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp PG_UP  &kp PG_DN  &kp UP    &kp C_VOL_DN  &kp C_VOL_UP
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp BSPC   &kp LEFT   &kp DOWN  &kp RIGHT     &kp LA(ENTER)
-&kp F11  &kp F12  &none   &none   &none    &mkp MB4   &mkp MB5   &kp DEL   &none         &none          &none  &kp PRSC
+&kp F11  &kp F12  &none   &none   &none    &mkp MB4   &mkp MB5   &kp DEL   &none         &none          &none  &none
 &trans   &trans   &trans  &trans  &trans   &trans     &trans     &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -145,15 +145,15 @@
         layer_3 {
             display-name = "NUMBERS";
             bindings = <
-&none   &none   &none   &none   &none   &kp PLUS   &kp N7     &kp N8     &kp N9  &kp SLASH
-&none   &none   &none   &none   &none   &kp MINUS  &kp N4     &kp N5     &kp N6  &kp LS(SEMI)
-&none   &none   &none   &none   &none   &none      &none      &kp N0     &kp N1  &kp N2        &kp N3  &kp DOT
-&trans  &trans  &trans  &trans  &trans  &trans     &kp COMMA  &kp COLON
+&none   &none   &none   &none   &none   &kp PLUS    &kp N7     &kp N8     &kp N9  &kp ASTRK
+&none   &none   &none   &none   &none   &kp MINUS   &kp N4     &kp N5     &kp N6  &kp LS(SEMI)
+&none   &none   &none   &none   &none   &none       &none      &kp N0     &kp N1  &kp N2        &kp N3  &kp SLASH
+&trans  &trans  &trans  &trans  &trans  &kp PERIOD  &kp COMMA  &kp COLON
             >;
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
@@ -170,7 +170,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
-                // RE0: ctrl + - / +,,,,,,,,,,
+                // RE0: ctrl + - / +,,,,,,,,,,,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
             // RE1: volume down/up
